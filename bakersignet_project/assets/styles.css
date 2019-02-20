@@ -4,6 +4,7 @@
 body {
   background-color: #2A2A2A;
   font-family: "baker-signet-web", serif;
+  letter-spacing: 1.5px;
   margin: 0;
   padding: 0;
 }
@@ -62,7 +63,7 @@ p {
   /* background-color: pink; */
   border: black;
   text-align: center;
-  margin: 35px;
+  margin: 38px;
 }
 
 .flexy-row {
@@ -81,6 +82,8 @@ p {
 .big-letter {
   text-align: center;
   font-size: 239px;
+  color: white;
+  position: relative;
 }
 
 .back-letter {
@@ -90,17 +93,18 @@ p {
 .mid-square {
   /* background-color: red; */
   text-align: center;
-  margin: 0px 35px;
+  margin: .5px 38px;
 }
 
 
 .history {
-  width: 768px
-  display: flex;
-  text-align: center;
-  color: 	white;
-  /* background-color: brown; */
-  margin: 43px 122px;
+    width: 583px;
+    /* display: flex; */
+    text-align: center;
+    color: white;
+    /* background-color: brown; */
+    margin: 81px 86px;
+    line-height: 25px;
 }
 
 .history h2 {
@@ -109,43 +113,49 @@ p {
 }
 
 .flexy-bottom-right-info {
+  margin: 100px auto;
+
   display: flex;
   flex-direction: row;
-  float: right;
-  /* background-color: orange; */
-  margin-top: 50px;
+  /* float: right; */
+  margin-top: 200px;
+  width: 490px;
 }
 
-.pic {
-  /* background-color: blue; */
-  margin: auto;
+.bottom-words {
+  display: flex;
 }
 
-.titles-left {
+.names {
   width: 50px
   display: flex;
   text-align: left;
   color: white;
-  text-transform: uppercase;
-  margin: 0px 10px;
+  /* text-transform: uppercase; */
+  /* margin: 0px 10px; */
+  /* background-color: pink; */
+  /* margin: 0 auto; */
+  line-height: 45%;
+  margin: 0 30px;
 }
 
-.descriptions-right {
+
+.sources {
   width: 50px
   display: flex;
   text-align: left;
   /* color: white; the white coloring here isn't working, i had to put it into <p> */
+  line-height: 45%;
 }
 
-.sources {
-  line-height: 31%;
-  margin-top: 22px;
+.title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
 }
-
 
 .pic {
-  width: 75px;
-  height: 75px;
+  width: 77px;
+  margin: auto;
 }
 
 
@@ -156,23 +166,45 @@ a:hover {
 
 a {
   text-decoration: inherit;
-  color: #00BAFF;
+  color: blue;
 }
 
 a:visited {
-  color: #00506E;
+  color: grey;
 }
 
 
-.button {
-  width: 66px;
-  height: 66px;
-  border-radius: 50%;
-  background-color: #00BAFF;
-  float: center;
+#button {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    /* background-color: #00BAFF; */
+    float: center;
+    z-index: 99;
+    position: aboslute;
+    margin: 60px auto;
+    box-shadow: 0px 0px 68px 13px blue;
+}
+
+#button:hover {
+  background-color: white;
+}
+
+#button:visited {
+  background-color: #00506E;
+}
+
+.analysis {
+    position: absolute;
+    z-index: 20;
+    top: 12px;
+    left: 21px;
+}
+
+/* .text-center {
+  margin-right: auto;
+  margin-left: auto;
 } */
-
-
 
 /* .letter-container h1 {
   width: 231px
