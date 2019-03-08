@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 768px;
+  width: 1024px;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  font-family: "aktiv-grotesk", sans-serif;
+  font-size: 14px;
+}
+
+.header {
+  margin-top: 12px;
+  margin-left: 7px;
+  text-align: center;
+  position: absolute;
+}
+
+/* Remmeber to use .class and #id */
+.face-button {
+    border-radius: 50%;
+    width: 93px;
+    height: 83px;
+    color: aquamarine;
+    text-align: center;
+    margin: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.all-faces {
+  position: absolute;
+}
+
+.line {
+  background-color: white;
+  height: 1px;
+  width: 1024px;
+  margin-top: 69px;
+  margin-left: 46px;
+  position: fixed;
+  z-index: 2;
+}
+
+
+.modal-content {
+  background-color: black;
+  padding: 40px;
+  border: 1px solid white;
+  width: 60%;
+  position: absolute;
+  left: 16%;
+  top: 16%;
+  visibility: hidden;
+  z-index: 200;
+  display: flex
+}
+
+.trace-box {
+  border: 1px solid white;
+  width: 193px;
+  height: 105px;
+  margin-top: 27px;
+  margin-left: 47px;
+  position: fixed;
+  z-index: 1;
+}
+
+.explore {
+    margin: 40px 0px 0 0px;
+    text-align: left;
+    font-weight: bold;
+    font-style: "maiola," serif;
+    font-size: 1.5em;
+}
+
+.visible {
+  /* Make this override everything put the !important */
+  visibility: visible !important;
+}
+
+
+.no-flex {
+  margin-left: 30px;
+}
+
+.close {
+  position: absolute;
+  right: 30px;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-style: "maiola," serif;
+}
+
+h5 {
+  font-style: "maiola," serif;
+}
+
+
+questions
+1. get the x to work
+2. get the map to work
+3. get the picture to squeeze.
