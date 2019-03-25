@@ -106,16 +106,10 @@ h5 {
     margin-left: 223px;
 }
 
-#newzealand-face:visited {
-  margin-top: 592px;
-  margin-left: 858px;
-  animation: shadow-pulse 1s 0;
-}
-
 #newzealand-face {
     margin-top: 592px;
     margin-left: 858px;
-    animation: none 1s infinite;
+    animation: shadow-pulse 1s 10;
 }
 
 #uganda-face {
