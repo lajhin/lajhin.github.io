@@ -3,12 +3,14 @@
 $(document).ready(function (){
     $('#tibet-face').click(function() {
         $("#tibet-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 //Button to close a modal
 $(document).ready(function (){
     $('#tibet-close').click(function() {
-        $("#tibet-modal").toggleClass("visible")
+        $("#tibet-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 
@@ -17,11 +19,13 @@ $(document).ready(function (){
 $(document).ready(function (){
     $('#korea-face').click(function() {
         $("#korea-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 $(document).ready(function (){
     $('#korea-close').click(function() {
         $("#korea-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 
@@ -31,11 +35,13 @@ $(document).ready(function (){
 $(document).ready(function (){
     $('#brazil-face').click(function() {
         $("#brazil-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 $(document).ready(function (){
     $('#brazil-close').click(function() {
         $("#brazil-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 
@@ -45,11 +51,13 @@ $(document).ready(function (){
 $(document).ready(function (){
     $('#newzealand-face').click(function() {
         $("#newzealand-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 $(document).ready(function (){
     $('#newzealand-close').click(function() {
         $("#newzealand-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 
@@ -59,17 +67,31 @@ $(document).ready(function (){
 $(document).ready(function (){
     $('#uganda-face').click(function() {
         $("#uganda-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 $(document).ready(function (){
     $('#uganda-close').click(function() {
         $("#uganda-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
         });
 });
 
 
 
 
+$(document).ready(function (){
+    $('#us-face').click(function() {
+        $("#us-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
+        });
+});
+$(document).ready(function (){
+    $('#us-close').click(function() {
+        $("#us-modal").toggleClass("visible");
+        $(".background-grey").toggleClass("visible");
+        });
+});
 
 
 
