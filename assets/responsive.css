@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0px;
+    background-color: #fff;
+    font-family: 'Merriweather', serif;
+}
+
+.header {
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 5%;
+    flex-direction: column;
+    width: 70.13vw;
+    margin: 0 auto;
+}
+
+/*
+.header .vcd-03 {
+    font-size: .5em;
+    display: block;
+    font-weight: 300;
+}
+*/
+
+.header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    /*  5px = .3125em  */
+    /*    letter-spacing: .3125em; */
+    letter-spacing: .15625em;
+}
+
+.header h5,
+.sub-section h5 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 400;
+    /*  2.5/16 = .15625em  */
+    letter-spacing: .15625em;
+    margin-bottom: 2em;
+    font-size: .83em;
+}
+
+/* .sub-section.demos h5 {
+    margin-top: 2em;
+} */
+
+.flex-box {
+    display: flex;
+}
+
+.two-column {
+    flex-direction: column;
+}
+
+.spacing-box {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+/**************** Section Buttons ************/
+.project a,
+.resource a {
+    display: block;
+    padding: 1.25em;
+    border-radius: .5em;
+    /*  Centers the content on the X axes with 0 margin on top and 1.25em margin on the bottom  */
+    /*    margin: 0 auto 1.25em;*/
+    text-align: center;
+    /*  20/16 = 1.25em  */
+    margin-bottom: 1.25em;
+    box-shadow: 0 .25em .5em 0 rgb(0, 0, 0, 0.2);
+    /*  1/16 = .0625em  */
+    border: .0625em solid;
+}
+
+.section a {
+    color: #79a52b;
+    border-color: #79a52b;
+}
+
+.section a:hover {
+    color: white;
+    background-color: #79a52b;
+}
+
+/* .sub-section.examples a,
+.sub-section.demos a {
+    border-color: #2e4f9c;
+    color: #2e4f9c;
+}
+
+.sub-section.examples a:hover,
+.sub-section.demos a:hover {
+    background-color: #2e4f9c;
+    color: white;
+} */
+
+.resource a {
+    border-color: #2e4f9c;
+    color: #2e4f9c;
+}
+
+.resource a:hover {
+    background-color: #2e4f9c;
+    color: white;
+}
+
+/*************** Project Styles **************/
+.project,
+.resource {
+    /*  75/16 = 4.6875em  */
+    margin-bottom: 4.25em;
+    border-radius: 0;
+    /*  100/16 = 6.25em  */
+    padding-bottom: 4.25em;
+}
+
+.project h3 {
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+    /*  30/16 = 1.875em  */
+    padding-top: 1.875rem;
+    margin-bottom: 2rem;
+    font-size: 1.15rem;
+}
+
+.project-number,
+.resource h3 {
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .15625em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.resource h3 {
+    padding-top: 1.875rem;
+    margin-bottom: 2.3rem;
+}
+
+/* .project.ptwo {
+    background-color: rgba(46, 79, 156, 0.10);
+    color: #2e4f9c;
+} */
+
+.project {
+    background-color: rgba(121, 165, 43, 0.1);
+    color: rgb(83, 112, 29);
+   margin-top: 4.25rem;
+}
+
+.resource {
+    background-color: rgba(46, 79, 156, 0.10);
+    color: #2e4f9c;
+    margin-bottom: 0;
+}
+
+/********** Media Queries *************/
+
+@media screen and (min-width:520px) {
+
+    .header {
+        width: 48vw;
+    }
+}
+
+@media screen and (min-width:775px) {
+    .header {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width:1055px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .spacing-box {
+        width: 37.77vw;
+    }
+
+    .two-column {
+        flex-direction: row;
+    }
+
+    .sub-section {
+        margin-bottom: 1.67em;
+    }
+
+    .sub-section.demos {
+        margin-left: 4.15625em;
+        margin-bottom: 0;
+    }
+
+    .sub-section.demos h5 {
+        margin-top: 0;
+    }
+
+    .container {
+        width: 50%;
+        height: 80%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 5%;
+        border-radius: 1em;
+    }
+
+    .project,
+    .resource {
+        border-radius: .5em;
+    }
+
+    .header {
+        padding:0;
+    }
+
+}
