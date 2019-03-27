@@ -1,1 +1,0 @@
-# BakerSignet-Project
