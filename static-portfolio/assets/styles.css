@@ -1,0 +1,144 @@
+.index-body {
+  background-color: pink;
+}
+
+.header {
+  background-color: red;
+}
+
+.projects {
+  background-color: yellow;
+}
+
+.project1 {
+  background-color: orange;
+}
+
+.project2 {
+  background-color: green;
+}
+
+.project3 {
+  background-color: blue;
+}
+
+.description {
+  background-color: grey;
+}
+
+.image {
+  display: none;
+}
+
+.line {
+  display: contents;
+}
+
+.intro {
+  background-color: lightblue;
+}
+
+.role {
+  background-color: blue;
+}
+
+.results {
+  background-color: darkblue;
+}
+
+body {
+  background-color: beige;
+}
+.back {
+  background-color: brown;
+}
+
+@media only screen and (min-width: 736px) {
+  .flexy {
+    display: flex;
+    align-items: center;
+  }
+
+  .image {
+    display: contents;
+    max-width: 100%;
+    height: auto;
+    background-color: lightgrey;
+    width: 50px;
+    height: 50px;
+  }
+
+  header {
+  margin-left: 2.618em;
+  margin-top: 8em;
+  }
+
+  html {
+    display: table;
+    margin: auto;
+  }
+
+  .index-body {
+    align-items: center;
+    margin: 0;
+    max-width: 1020px;
+    vertical-align: middle;
+  }
+
+  .right {
+    margin-right: 2.618em;
+  }
+
+  .left {
+    margin-left: 2.618em;
+  }
+
+  .line {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width: 980px) {
+  .flexy {
+    display: flex;
+    align-items: center;
+  }
+
+  .image {
+    display: contents;
+    max-width: 100%;
+    height: auto;
+    width: 20px;
+    height: 20px;
+  }
+
+  header {
+    margin-top: 8em;
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-size: 2.618em;
+  }
+
+  html{
+    display: table;
+    margin: auto;
+  }
+
+  body {
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    max-width: 1250px;
+    vertical-align: middle;
+  }
+
+  .line {
+    display: none;
+  }
+
+
+}
