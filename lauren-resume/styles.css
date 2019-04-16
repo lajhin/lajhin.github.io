@@ -97,6 +97,7 @@ p {
       max-width: 37em;
       margin-left: 3em;
       margin-right: 3em;
+      min-width: 0em;
   }
   .header {
     margin-left: 3em;
