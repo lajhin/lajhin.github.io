@@ -1,0 +1,278 @@
+/* full bleed, got rid of default settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+h5 {
+  font-weight: lighter;
+  margin: 0 0 0 0;
+}
+
+.words {
+  background-color: lightblue;
+}
+
+.white {
+  margin: 0;
+}
+
+
+.pink {
+  background-color: pink;
+  /* moved image to middle, horizontally */
+  text-align: center;
+
+}
+
+.pink img {
+  width: 66%;
+  /* center image vertically */
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+.pink h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: black;
+  padding-top: 1em;
+  text-align: left;
+  margin-left: 16.5%;
+}
+
+/* can add classes to p, to style it uniquely */
+/* .special,
+.pink.special h1 {
+  font-weight: bold;
+  color: red;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: poppins,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  color: #383B3E;
+  text-transform: lowercase;
+}
+
+
+header h1 {
+  margin-top: 2em;
+  font-weight: 200;
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+h1 {
+  font-weight: 200;
+  font-size: 1.618em;
+}
+
+.project {
+  margin-top: 7em;
+}
+
+p {
+  font-size: 16px;
+  text-transform: none;
+}
+
+
+.link {
+  margin-bottom: 2.618em;
+}
+
+
+strong {
+  font-weight: 400;
+}
+
+
+a {
+  color: #5770f7;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: #383B3E;
+  text-decoration: none;
+}
+
+
+.image {
+  display: none;
+}
+
+
+.line {
+  display: contents;
+}
+
+
+
+b {
+  font-weight: 800;
+}
+
+
+@media only screen and (min-width: 736px) {
+  .flexy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+/* display contents of image class not image itself */
+  .image {
+    display: block;
+    width:50%;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  header {
+  /* margin-left: 2.618em; */
+  margin-top: 8em;
+  }
+
+
+  .index-body {
+    align-items: center;
+    margin: 0;
+    /* max-width: 1020px; */
+    vertical-align: middle;
+  }
+
+  .right {
+    margin-right: 2.618em;
+    width: 40%;
+  }
+
+  .left {
+    margin-left: 2.618em;
+    width: 40%;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .blurb {
+    width: 45%;
+  }
+
+  .results {
+   width: 45%;
+  }
+
+
+  .intro {
+    justify-content: space-between;
+  }
+
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  .content {
+    width: 66%;
+    margin: 0 auto;
+  }
+
+  body .content img {
+    width: 66vw;
+  }
+
+  .project {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7em;
+    margin-bottom: 11em;
+  }
+
+
+  .flexy {
+    display: flex;
+  }
+
+
+  .image {
+    display: block;
+    width: 50%;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .right {
+    margin-right: 2.618em;
+    width: 36%;
+  }
+
+  header {
+    margin-top: 8em;
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-size: 2.618em;
+  }
+
+
+
+  body {
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  .line {
+    display: none;
+  }
+
+
+}

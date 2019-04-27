@@ -1,0 +1,261 @@
+h5 {
+  font-weight: lighter;
+  margin: 0 0 0 0;
+}
+
+.words {
+  background-color: lightblue;
+}
+
+.white {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: poppins,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  /* margin-left: 2.618em;
+  margin-right: 2.618em; */
+  color: #383B3E;
+  text-transform: lowercase;
+}
+
+
+header h1 {
+  margin-top: 2em;
+  font-weight: 200;
+  font-size: 2em;
+}
+
+.content {
+  max-width: 960px;
+  /* background-color: pink; */
+}
+
+.pink {
+  background-color: pink;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
+
+.pic img {
+  max-width: 100%;
+}
+
+
+h1 {
+  font-weight: 200;
+  font-size: 1.618em;
+}
+
+.project {
+  margin-top: 7em;
+}
+
+p {
+  font-size: 16px;
+  text-transform: none;
+}
+
+
+.link {
+  margin-bottom: 2.618em;
+}
+
+
+strong {
+  font-weight: 400;
+}
+
+
+a {
+  color: #5770f7;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: #383B3E;
+  text-decoration: none;
+}
+
+
+.image {
+  display: none;
+}
+
+
+.line {
+  display: contents;
+}
+
+
+
+b {
+  font-weight: 800;
+}
+
+
+@media only screen and (min-width: 736px) {
+  .flexy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+/* display contents of image class not image itself */
+  .image {
+    display: block;
+    width:50%;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  header {
+  /* margin-left: 2.618em; */
+  margin-top: 8em;
+  }
+
+  html {
+    display: table;
+    margin: auto;
+  }
+
+  .index-body {
+    align-items: center;
+    margin: 0;
+    max-width: 1020px;
+    vertical-align: middle;
+  }
+
+  .right {
+    margin-right: 2.618em;
+    width: 40%;
+  }
+
+  .left {
+    margin-left: 2.618em;
+    width: 40%;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .blurb {
+    width: 45%;
+  }
+
+  .results {
+   width: 45%;
+  }
+
+
+  .intro {
+    justify-content: space-between;
+  }
+
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  .project {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7em;
+    margin-bottom: 11em;
+  }
+
+
+  .flexy {
+    display: flex;
+  }
+
+
+  .projectpagebodycontent {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+
+  .image {
+    display: block;
+    width: 50%;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .right {
+    margin-right: 2.618em;
+    width: 36%;
+  }
+
+  header {
+    margin-top: 8em;
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-size: 2.618em;
+  }
+
+  html{
+    display: table;
+    margin: auto;
+  }
+
+  body {
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    max-width: 1250px;
+    vertical-align: middle;
+  }
+
+  .line {
+    display: none;
+  }
+
+
+}
