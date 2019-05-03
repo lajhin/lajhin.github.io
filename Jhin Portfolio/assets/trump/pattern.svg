@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="275.785" height="440.672" viewBox="0 0 275.785 440.672">
+  <g id="Group_11" data-name="Group 11" transform="translate(-321 -4696)">
+    <text id="deadlines_missed" data-name="deadlines missed" transform="translate(506.785 4696)" fill="#707070" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="5.232" y="17">deadlines </tspan><tspan x="15.68" y="42">missed</tspan></text>
+    <text id="deadlines_announced" data-name="deadlines announced" transform="translate(321 4992.672)" fill="#707070" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="11.238" y="17">deadlines </tspan><tspan x="4.382" y="42">announced</tspan></text>
+    <g id="Group_10" data-name="Group 10" transform="translate(359.99 4769.126)">
+      <g id="Ellipse_8" data-name="Ellipse 8" fill="#fff" stroke="#f58a83" stroke-width="3">
+        <circle cx="99.198" cy="99.198" r="99.198" stroke="none"/>
+        <circle cx="99.198" cy="99.198" r="97.698" fill="none"/>
+      </g>
+      <line id="Line_3" data-name="Line 3" x2="10.325" y2="22.126" transform="translate(150.088 0.369)" fill="none" stroke="#f58a83" stroke-width="3"/>
+      <line id="Line_4" data-name="Line 4" x1="24.674" y2="5.109" transform="translate(136.812 22.549)" fill="none" stroke="#f58a83" stroke-width="3"/>
+      <line id="Line_5" data-name="Line 5" x1="10.325" y1="22.126" transform="translate(36.844 174.427)" fill="none" stroke="#f58a83" stroke-width="3"/>
+      <line id="Line_6" data-name="Line 6" y1="5.109" x2="24.674" transform="translate(35.77 169.264)" fill="none" stroke="#f58a83" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
